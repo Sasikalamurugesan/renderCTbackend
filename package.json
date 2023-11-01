@@ -2,6 +2,10 @@
   "name": "maltimart-ecommerce",
   "version": "0.1.0",
   "private": true,
+  "main":"server.js",
+  "engines":{
+    "node":"19.8.1"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
     "@fortawesome/free-brands-svg-icons": "^6.4.2",
