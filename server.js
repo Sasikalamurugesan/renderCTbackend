@@ -13,13 +13,9 @@
 
   app.use(bodyParser.json());
   const cors = require('cors');
-  const corsOptions = {
-    origin: 'http://localhost:3001', 
-    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
-    credentials: true,
-  };
 
-  app.use(cors(corsOptions));
+
+  app.use(cors());
 
   const User = mongoose.model('User', {
     username: String,
